@@ -12,3 +12,4 @@
 3. `sudo ./Clash -d .`
 
 4. you can add your rules to `my_direct_rules.yaml` and `my_proxy_rules.yaml` for DIRECT and PROXY
+5. If you want to make your clash a proxy gateway, run `sudo ./clash_gateway`
