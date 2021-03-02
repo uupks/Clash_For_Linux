@@ -2,7 +2,7 @@ mixed-port: 7890
 redir-port: 7892
 allow-lan: true
 mode: Rule
-log-level: info
+log-level: warning
 external-controller: 0.0.0.0:9090
 external-ui: dashboard
 secret: ""
@@ -39,7 +39,7 @@ proxy-groups:
       - my_provider
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 600
+    interval: 3600
   - name: 国内站点
     type: select
     proxies:
