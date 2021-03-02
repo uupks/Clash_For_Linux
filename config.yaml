@@ -35,6 +35,12 @@ interface-name: en0
 
 proxy-groups:
   - name: PROXY
+    type: select
+    proxies:
+      - AUTO
+    use:
+      - my_provider
+  - name: AUTO
     use:
       - my_provider
     type: url-test
